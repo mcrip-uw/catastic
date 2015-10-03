@@ -11,6 +11,7 @@ sites/*/private
 # Ignore Aquia Dev Desktop .dd files
 sites/*.dd
 sites/*/services*.yml
+sites/sites.php
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
