@@ -1,0 +1,19 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+#Ignore Mac specific files
+.DS_Store
+
+# Ignore Aquia Dev Desktop .dd files
+sites/*.dd
+sites/*/services*.yml
+
+# Ignore SimpleTest multi-site environment.
+sites/simpletest
+
+# Ignore emacs temp files
+*~
